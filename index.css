@@ -1,0 +1,158 @@
+    body {
+        margin: 0;
+        font-family: "Lato", sans-serif;
+        line-height: 1;
+        font-family: rift soft;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-style: italic;
+        overflow: hidden;
+    }
+    .sub {
+        float: right !important;
+        background-image: linear-gradient(#581A70, #883682);
+        height: 25px;
+    }
+    .sub > a {
+        color: white!important;
+    }
+    .sub:hover {
+        float: right !important;
+        background-image: linear-gradient(#EA2FDE, #883682);
+        height: 75px;
+        transition: all .3s;
+    }
+    .topnav {
+        height: 75px;
+        top: 0;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-color:white;
+    }
+    .topnav a {
+        float: left;
+        height: 30%;
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .topnav-left div:hover {
+        border-bottom: 2.5px solid #EA2FDE;
+    }
+    .topnav div:hover  > a {
+        color: #505050;
+    }
+    .topnav-left {
+        float: left;
+        width: 100%;
+    }
+    .topnav-left > div {
+        float: left;
+        padding: 25px 64px;
+    }
+    .topnav-left > div >  a {
+        text-align: center;
+        color: black;
+        width: 2.5%;
+    }
+    .backgroundImage {
+        z-index: -1;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+    }
+    .title{
+        margin-top: 2%;
+        text-align: center;
+        color: white;
+        position: relative;
+        font-size: 100px;
+        width: 100%;
+    } 
+    .centerText {
+        height: 100%;
+        overflow: auto;
+        width: 100%;
+    }
+    .infoText {
+        text-align: center;
+        color: white;
+        position: relative;
+        width: 40%;
+        left: 50%;
+        font-size: 20px;
+        transform: translate(-50%, 0%);
+        margin-bottom: 5%;
+    }
+    @font-face {
+        font-family: rift soft;
+        src: url(./assets/RiftSoft-BoldItalic.woff2) format("woff2");
+        font-weight: 700;
+        font-style: italic
+    }
+    .grid-container {
+        margin-top: 2%;
+        width: 50%;
+        left: 25%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        padding: 10px;
+        position: relative;
+    }
+    .grid-container > div {
+        height: 100px;
+        background-color: #602778;
+        border: 4px solid #252525;
+        text-align: center;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .grid-container > div:hover {
+        border: 4px solid #EA2FDE;
+        background-color: #773095;
+    }
+    .streamelements {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-image: url(./assets/streamelements.png);
+
+    }
+    .streamlabs {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-image: url(./assets/streamlabs.png);
+    }
+    .paypal {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-position-y: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-image: url(./assets/paypal.png);
+    }
+    .logo{
+        float: left;
+        padding: 2px 15px 0px 15px;
+        height: 90%;
+        cursor: pointer;
+    }
+    .twitchPlayer {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        left: 25%;
+        background-color: #773095;
+        border: 8px solid #EA2FDE;
+        margin-bottom: 10%;
+    }
