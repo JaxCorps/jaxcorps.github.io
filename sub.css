@@ -62,6 +62,8 @@ a, a:visited, a:hover, a:active {
    padding: 5%;
    color: white;
 }
-.tier1button:hover > div >  a, .tier2button:hover > div >  a, .tier3button:hover > div >  a {
-    border: solid 2px #EA2FDE;
+@media (hover: hover) {
+    .tier1button:hover > div >  a, .tier2button:hover > div >  a, .tier3button:hover > div >  a {
+        border: solid 2px #EA2FDE;
+    }
 }
