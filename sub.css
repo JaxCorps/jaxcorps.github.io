@@ -3,7 +3,6 @@
     width: 60%;
     margin-left: 20%;
     display: grid;
-    grid-template-rows: auto auto auto;
     grid-template-columns: 33.3% auto 33.3%;
     grid-template-areas: "tier1    tier2    tier3"
                          "tier1button   tier2button   tier3button";
@@ -31,21 +30,21 @@
     width: 100%;
     position: relative;
 }
-.tier1button > div > a {
+.tier1button > div {
     grid-area: tier1button;
     background-color: #252525;
     padding: 5px;
     border-radius: 5px;
     border: solid white 2px;
 }
-.tier2button > div > a {
+.tier2button > div {
     grid-area: tier2button;
     background-color: #252525;
     padding: 5px;
     border-radius: 5px;
     border: solid white 2px;
 }
-.tier3button > div > a {
+.tier3button > div {
     grid-area: tier3button;
     background-color: #252525;
     padding: 5px;
