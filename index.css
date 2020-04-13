@@ -20,7 +20,8 @@
         height: 75px;
         top: 0;
         width: 100%;
-        position: relative;
+        position: fixed;
+        z-index: 2;
         overflow: hidden;
         background-color:white;
     }
@@ -51,7 +52,7 @@
         position: fixed;
     }
     .title{
-        margin-top: 2%;
+        margin-top: 7%;
         text-align: center;
         color: white;
         position: relative;
@@ -156,6 +157,17 @@
         color: white;
     }
 
+
+    @media only screen and (max-width: 1234px) {
+        .twitch {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 1056px) {
+        .twitter {
+            display: none;
+        }
+    }
     @media (hover: hover) {
         .grid-container > div:hover {
             border: 4px solid #EA2FDE;
