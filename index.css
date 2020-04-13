@@ -16,12 +16,6 @@
     .sub > a {
         color: white!important;
     }
-    .sub:hover {
-        float: right !important;
-        background-image: linear-gradient(#EA2FDE, #883682);
-        height: 75px;
-        transition: all .3s;
-    }
     .topnav {
         height: 75px;
         top: 0;
@@ -36,12 +30,6 @@
         color: #f2f2f2;
         text-decoration: none;
         font-size: 20px;
-    }
-    .topnav-left div:hover {
-        border-bottom: 2.5px solid #EA2FDE;
-    }
-    .topnav div:hover  > a {
-        color: #505050;
     }
     .topnav-left {
         float: left;
@@ -108,10 +96,6 @@
         font-size: 30px;
         cursor: pointer;
     }
-    .grid-container > div:hover {
-        border: 4px solid #EA2FDE;
-        background-color: #773095;
-    }
     .streamelements {
         width: 100%;
         height: 100%;
@@ -170,4 +154,23 @@
     }
     .footer > a {
         color: white;
+    }
+
+    @media (hover: hover) {
+        .grid-container > div:hover {
+            border: 4px solid #EA2FDE;
+            background-color: #773095;
+        }
+        .sub:hover {
+            float: right !important;
+            background-image: linear-gradient(#EA2FDE, #883682);
+            height: 75px;
+            transition: all .3s;
+        }
+        .topnav-left div:hover {
+            border-bottom: 2.5px solid #EA2FDE;
+        }
+        .topnav div:hover  > a {
+            color: #505050;
+        }
     }
