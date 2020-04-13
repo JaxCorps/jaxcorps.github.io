@@ -1,0 +1,67 @@
+.grid-container-sub {
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 33.3% auto 33.3%;
+    grid-template-areas: "tier1    tier2    tier3"
+                         "tier1button   tier2button   tier3button";
+    grid-gap: 10px;
+    padding: 10px;
+}
+.grid-container-sub > div {
+    height: auto;
+    background-color: #602778;
+    border: 4px solid #252525;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.subEmotes {
+    padding-top: 5%;
+}
+.subButton {
+    bottom: 0px;
+    z-index: 5;
+}
+.button {
+    border: solid red 2px;
+    bottom: 5%;
+    width: 100%;
+    position: relative;
+}
+.tier1button > div > a {
+    grid-area: tier1button;
+    background-color: #252525;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid white 2px;
+}
+.tier2button > div > a {
+    grid-area: tier2button;
+    background-color: #252525;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid white 2px;
+}
+.tier3button > div > a {
+    grid-area: tier3button;
+    background-color: #252525;
+    padding: 5px;
+    border-radius: 5px;
+    border: solid white 2px;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+.tier1button, .tier2button, .tier3button {
+    background-color: transparent !important;
+    border: transparent!important;
+   padding: 5%;
+   color: white;
+}
+.tier1button:hover > div >  a, .tier2button:hover > div >  a, .tier3button:hover > div >  a {
+    border: solid 2px #EA2FDE;
+}
