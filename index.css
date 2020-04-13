@@ -105,7 +105,6 @@
         height: 100px;
         background-color: #602778;
         border: 4px solid #252525;
-        text-align: center;
         font-size: 30px;
         cursor: pointer;
     }
@@ -155,4 +154,20 @@
         background-color: #773095;
         border: 8px solid #EA2FDE;
         margin-bottom: 10%;
+    }
+    .offsite {
+        margin-top: 0.5%;
+        margin-right: 0.5%;
+        float: right;
+    }
+    .footer {
+        height: 20px;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        color: white;
+        text-align: center;
+    }
+    .footer > a {
+        color: white;
     }
