@@ -7,6 +7,9 @@
         font-weight: 600;
         font-style: italic;
         overflow: hidden;
+        background-image: url(./assets/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .sub {
         float: right !important;
@@ -44,12 +47,6 @@
         text-align: center;
         color: black;
         width: 2.5%;
-    }
-    .backgroundImage {
-        z-index: -1;
-        height: 100%;
-        width: 100%;
-        position: fixed;
     }
     .title{
         margin-top: 7%;
@@ -156,8 +153,6 @@
     .footer > a {
         color: white;
     }
-
-
     @media only screen and (max-width: 1234px) {
         .twitch {
             display: none;
