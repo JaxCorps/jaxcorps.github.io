@@ -224,3 +224,10 @@ function allCommands() {
         document.getElementsByClassName("commmandlist")[0].appendChild(node);
     })
 }
+
+function openLink(link) {
+    window.open(link, '_blank');
+}
+function openSite(link) {
+    window.open(link, '_self');
+}
