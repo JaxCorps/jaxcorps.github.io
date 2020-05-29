@@ -3,7 +3,7 @@
     width: 60%;
     margin-left: 20%;
     display: grid;
-    grid-template-columns: 33.3% auto 33.3%;
+    grid-template-columns: calc(100%  /3) calc(100%  /3) calc(100%  /3);
     grid-template-areas: "tier1    tier2    tier3"
                          "tier1button   tier2button   tier3button";
     grid-gap: 10px;
