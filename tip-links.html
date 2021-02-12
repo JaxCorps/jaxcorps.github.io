@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="./index.css">
-<title>JaxDagger - Commands</title>
+<title>JaxDagger - Tips</title>
 <link rel="icon" type="image/png" href="./assets/favicon.png">
 </head>
 <body>
@@ -32,21 +32,22 @@
 
     
     <div class="centerText">
-        <div class="title">Commands</div>
-        <div class="grid-container commandBots">
-            <div class="botCommandButton" onclick="streamelementsCommands()">
-                <div>StreamElements</div>
+        <div class="title">Tip Links!</div>
+         <div class="grid-container">
+            <div onclick="openLink(`https://streamelements.com/jaxdagger/tip`)">
+                <img class="offsite" height="25px" src="./assets/offsite.svg">
+                <div class="streamelements"></div>
             </div>
-            <div class="botCommandButton" onclick="kappamonCommands()">
-                <div>KappaMon</div>
+            <div onclick="openLink(`https://streamlabs.com/jaxdagger1/tip`)">
+                <img class="offsite" height="25px" src="./assets/offsite.svg">
+                <div class="streamlabs"></div>
             </div>
-            <div class="botCommandButton" onclick="allCommands()">
-                <div>All</div>
+            <div onclick="openLink(`https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VR63H2R5CPF4A&source=url`)">
+                <img class="offsite" height="25px" src="./assets/offsite.svg">
+                <div class="paypal"></div>
             </div>
         </div>
-         <div class="grid-container commmandlist"> 
-        </div>
-        <p class="infoText" style="margin-bottom: 10%;">Click the buttons above to see what commands there are to use in chat!</p>
+        <p class="infoText" style="margin-bottom: 10%;">You can choose a tipping site that you're familiar with. <br> All payment types accepted on all tipping sites: Credit Cards, PayPal, & Paysafe card for StreamElements only.</p>
     </div>
     <div class="footer">
         <h>Im ThatGravyBoat and I made this! Go check out my <a href="https://thatgravyboat.github.io" target="blank">site</a>!
@@ -55,4 +56,11 @@
 </div>
 </body>
 </html>
-<script src="./index.js"></script>
+<script>
+    function openLink(link) {
+        window.open(link, '_blank');
+    }
+    function openSite(link) {
+        window.open(link, '_self');
+    }
+</script>
